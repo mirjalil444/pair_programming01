@@ -17,11 +17,18 @@ body, html {
 	font-family: 'Lato', sans-serif;
 	
 } 
+
+body {
+
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	
+}
 .main {
 	width: 950px;
 	border:1px solid none;
 	margin:0 auto;
-	overflow: hidden;
 
 }
 
@@ -35,7 +42,7 @@ body, html {
 }
 
 .main .left .sitename {
-		background-color: #1491c1;
+	background-color: #1491c1;
 
 }
 .main .left .sitename h1{
@@ -80,9 +87,18 @@ body, html {
 .main .right ul li a{
 	color:#1491c1;
 	text-decoration: none;
+	font-weight: bold;
 }
 
+/*
+.main .right ul li a:hover {
+	font-weight: normal;
+	color:#1491c1;
 
+
+}
+
+*/
 
 .main .right .clear{
 	clear:both;
@@ -177,6 +193,7 @@ body, html {
  .main .left .sem {
 
 	width: 100%;
+	height: 1015px;
 	background-color: #083266;
 
  }
@@ -256,7 +273,7 @@ body, html {
 .main .right .rightStep2{
 	width:100%;
 	margin-top:3px;
-	background-color: #083266
+	background-color: #062C5B;
 	
 
 
@@ -288,6 +305,7 @@ body, html {
 	color: #1491c1;
 	font-size: 14px;
 	margin-left:20px;
+	margin-right: 30px;
 
 }
 .main .right .rightStep2 button{
@@ -303,31 +321,274 @@ body, html {
 
 
 
-/*
 
-.main .right .rightStep3  .left{
-	width: 270px;
-	height: 500px;
-	border: 1px solid red;
-	float: left;
-	margin-left: 10px;
-
-}
-
-
-.main .right .rightStep3 .left img {
+.rightStep3 {
 	width: 100%;
+	background-color: #062C5B;
 
-	padding:15px;
+
+
+}
+
+.rightStep3 .leftT {
+	width: 250px;
+	padding: 15px;
+	float:left;
+	background-color: #083266;
+
+
+
+}
+
+
+.rightStep3 .clear {
+	clear:both;
 }
 
 
 
-.main .right .rightStep3  .right {
-	width: 270px;
-	height: 500px;
-	border: 1px solid red;
+.rightStep3 .l1 {
+	margin: 24px 24px 24px 14px;
+}
+
+.rightStep3 .l2 {
+	margin: 24px 14px 24px 24px;
+}
+
+
+
+.rightStep3 .leftT img {
+	width: 100%;
+	margin-bottom: 15px;
+
+
+
+}
+
+
+.rightStep3 .leftT h3 {
+	margin:0px;
+	color:white;
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 15px;
+
+
+}
+
+.rightStep3 .leftT p {
+
+	margin: 0px;
+	color: #1491c1;
+	font-size: 14px;
+	margin-bottom: 15px;
+
+
+}
+
+.rightStep3 .leftT button {
+	border: transparent;
+	background-color: #1491c1;
+	color: white;
+	padding: 4px 7px;
+	
+	
+}
+
+
+.rightStep4 {
+	background-color: #062C5B;
+	padding-top: 7px;
+}
+
+
+.rightStep4 h3 {
+	margin:0px;
+	color:white;
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 3px;
+	margin-left: 23px;
+} 
+
+.rightStep4 h4 {
+	color:white;
+	margin: 0px;
+	margin-left:8px;
+	padding: 2px 0px 20px 2px;
+	font-weight: normal;
+	margin-left: 20px;
+
+}
+
+.rightStep4 img {
+	margin-left: 23px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.rightStep4 .p1 {
+	width: 290px;
+	float:left;
+
+}
+
+.rightStep4 .p1 p{
+
+	margin: 0px;
+	color: #1491c1;
+	font-size: 14px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	left: 30px;
+
+}
+
+
+
+
+.rightStep4 .clear{
+	clear: both;
+}
+
+.rightStep4 button {
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: transparent;
+	background-color: #1491c1;
+	color: white;
+	padding: 4px 7px;
+	
+
+}
+
+.footer1 {
+	width: 100%;
+	background-color: #1491c1;
+
+}
+
+
+.footer1 .from {
+
+	width: 648px;
+	float:left;
+	margin-left: 20%;
+
+
+
+
+}
+
+.footer1 .quick {
+	width: 300px;
 	float: left;
 
 
-}*/
+}
+
+.footer1 .clear {
+	clear: both;
+}
+
+.h2 {
+	margin: 0px;
+	color: white;
+	font-weight: normal;
+	border-bottom: 2px solid #107EB4 ;
+	padding-bottom: 20px;
+	padding-top: 40px;
+
+
+}
+
+
+.footer1 .from .left {
+	width: 230px;
+	margin: 20px 90px 40px 0px;
+
+	float:left;
+}
+
+
+.footer1 .from .right {
+	width: 230px;
+	margin: 20px 0px 40px 0px;
+	float: left;
+
+
+}
+
+.footer1 .from .clear {
+	clear:both;
+}
+
+
+ .h5 {
+	color:#062C5B;
+}
+
+.p{
+	color: white;
+
+}
+
+.a {
+	text-decoration: none;
+	color:#062C5B;
+
+}
+
+.quick .quick1 h5{
+
+	margin: 50px 0px;
+}
+
+
+
+
+
+.footer2 .center p {
+	
+	color:#1491c1;
+	font-size: 14px;
+}
+
+
+.footer2 {
+	background-color: white;
+}
+
+.footer2 .center {
+
+	width: 400px;
+	height: 60px;
+	margin-top: -16px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.footer2 .center p a {
+	text-decoration: none;
+	color:#1491c1;
+	transition: all 0.4s ease;
+}
+
+
+.footer2 .center p a:hover {
+	
+	color:#062C5B;
+
+
+
+}
+
+
+
+
+
+
+
+
