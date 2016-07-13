@@ -1,0 +1,333 @@
+
+/* reset */
+header .headerLeft h1 {
+	margin:0px;
+	padding:0px;
+}
+/* reset */
+
+
+
+
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	
+} 
+.main {
+	width: 950px;
+	border:1px solid none;
+	margin:0 auto;
+	overflow: hidden;
+
+}
+
+/* Sol teref */
+
+.main .left {
+	width: 300px;
+	float: left;
+
+
+}
+
+.main .left .sitename {
+		background-color: #1491c1;
+
+}
+.main .left .sitename h1{
+	margin: 0px;
+	padding: 60px 10px;
+	display: inline-block
+	color: white;
+	font-size:50px;
+	text-align: center;
+
+}
+/* Sol teref */
+
+
+
+/* Sag teref */
+.main .right {
+	width: 650px;
+	height:182px;
+
+	background: #083266;
+	float: left;
+	height: 181px
+
+
+}
+.main .right ul{
+	padding:0px;
+	margin: 0px;
+	overflow: hidden;
+	height: ;
+}
+.main .right ul li{
+	list-style:none;
+	
+	border-right:solid 1px #1491c1;
+	float: left;
+	padding: 143px 15px 15px 25px;
+
+
+}
+.main .right ul li a{
+	color:#1491c1;
+	text-decoration: none;
+}
+
+
+
+.main .right .clear{
+	clear:both;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+
+/* saytin sag hissesi */
+
+.main .left .search {
+
+	width: 100%;
+	border: 1px solid none;
+	height:100px;
+	background: #0d5192;
+
+
+}
+
+.main .left .search h4 {
+	color:white;
+	margin: 0px;
+	padding: 15px 0px 15px 15px;
+	font-weight: normal;
+}
+.main .left .search input {
+	border: transparent;
+	background-color: #07366b;
+	margin-left: 15px;
+	padding: 5px;
+	width: 200px;
+	float: left;
+	color: white;
+}
+
+.main .left .search .icon img {
+	float: left;
+	width: 32px;
+}
+
+
+/* sol terefden ikinci table*/
+.main .left .menu{
+	height: 400px;
+	width:100%;
+	background:#083266;
+
+}
+
+.main .left .menu h3{
+	margin:0px;
+	color:white;
+	padding-top: 45px ;
+	padding-bottom: 35px;
+	padding-left: 15px;
+	font-size: 25px;
+
+
+	font-weight: normal;
+
+
+
+}
+.main .left .menu ul{
+	margin:0px;
+	padding:0px;
+
+}
+.main .left .menu ul li{
+	list-style: none;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	border-bottom: 1px solid #1491c1;
+
+}
+.main .left .menu ul li a{
+	color:#1491c1;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+
+/* Ucuncu menu (sem)*/
+
+ .main .left .sem {
+
+	width: 100%;
+	background-color: #083266;
+
+ }
+
+ .main .left .sem h3 {
+ 	margin:0px;
+	color:white;
+	padding-top: 45px ;
+	padding-bottom: 35px;
+	padding-left: 15px;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.main .left .sem .sem1 {
+	margin: 15px 15px;
+	border-bottom: 1px solid #1491c1;
+}
+
+.main .left .sem .sem1 img {
+	border: 3px solid white;
+	
+
+}
+
+.main .left .sem .sem1 .image {
+	width: 75px;
+	height: 70px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.main .left .sem .sem1 .image2 {
+
+	width: 190px;
+	height: 70px;
+	float:left;
+	margin-left: 5px;
+}
+
+
+.main .left .sem .sem1 p {
+	margin: 0px;
+	color: #1491c1;
+	font-size: 14px;
+}
+
+.main .left .sem .sem1 button {
+	margin-top: 10px;
+	border: transparent;
+	background-color: #1491c1;
+	color: white;
+	padding: 2px 7px;
+
+	
+}
+
+.main .left .sem .sem1 .clear {
+		clear: both;
+}
+
+
+
+
+
+
+
+.hed {
+	width: 100%;
+	height: 182px;
+	position: absolute;
+	background-color: #083266;
+
+	z-index: -1;
+}
+
+.main .right .rightStep2{
+	width:100%;
+	margin-top:3px;
+	background-color: #083266
+	
+
+
+}
+
+.main .right .image3 img{
+	width: 100%;
+	margin-top:4px;
+}
+.main .right .rightStep2 h3{
+	margin:0px;
+	color:white;
+	margin-top:-7px;
+	padding-top: 23px ;
+	padding-left: 20px;
+	font-size: 25px;
+	font-weight: normal;
+
+}
+.main .right .rightStep2 h4{
+	color:white;
+	margin: 0px;
+	margin-left:8px;
+	padding: 5px 0px 20px 15px;
+	font-weight: normal;
+
+}
+.main .right .rightStep2 p{
+	color: #1491c1;
+	font-size: 14px;
+	margin-left:20px;
+
+}
+.main .right .rightStep2 button{
+	margin-top: 10px;
+	border: transparent;
+	background-color: #1491c1;
+	color: white;
+	padding: 2px 7px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+
+
+/*
+
+.main .right .rightStep3  .left{
+	width: 270px;
+	height: 500px;
+	border: 1px solid red;
+	float: left;
+	margin-left: 10px;
+
+}
+
+
+.main .right .rightStep3 .left img {
+	width: 100%;
+
+	padding:15px;
+}
+
+
+
+.main .right .rightStep3  .right {
+	width: 270px;
+	height: 500px;
+	border: 1px solid red;
+	float: left;
+
+
+}*/
